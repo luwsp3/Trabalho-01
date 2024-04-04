@@ -1,0 +1,134 @@
+body {
+    background-color: #1d2026;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #24272e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+  
+.barraNav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 70%;
+}
+
+.barraNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.barraNav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.barraNav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.barraNav ul li a:hover {
+  color: #ddd;
+}
+  
+  #logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .introducao {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .introducao h2 {
+    font-size: 1.5em;
+  }
+  
+  .vestibulares {
+    margin-top: 30px;
+  }
+  
+  .vestibulares h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .vestibulares ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .vestibulares li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .vestibulares li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .vestibulares li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .vestibulares li h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .vestibulares li p {
+    margin-top: 5px;
+  }
+  
+  .vestibulares li button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2f6eeb;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .vestibulares li button:hover {
+    background-color: #293347;
+  }
+  

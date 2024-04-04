@@ -1,0 +1,151 @@
+
+  /* Tipografia */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  * {
+    font-family: 'poppins';
+  }
+
+/* Cores */
+/* Cores */
+body {
+    background-color: #1d2026;
+    color: #fff;
+  }
+  
+  .barraNav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 60%;
+  }
+  
+.barraNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.barraNav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.barraNav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+.barraNav ul li a:hover {
+    color: #ddd;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #f7f7f7;
+  }
+  
+  a {
+    color: #f7f7f7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ddd;
+  }
+  
+  /* Layout */
+  #logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1d2026;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #estudante {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 300px;
+  }
+
+  .titulo-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .metodos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .metodos ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .metodos li {
+    margin: 10px auto; 
+    padding: 20px;
+    border: 1px solid #2b70fa;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .metodos li:hover {
+    border-color: #BBB;
+  }
+  
+  .metodos li button {
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #1d2026;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .metodos li button:hover {
+    background-color: #2753ac;
+  }
+  
+  .conclusao {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
